@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Prakersh123/Portfolio_backend#readme",
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
   }
 }
