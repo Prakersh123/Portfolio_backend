@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/Prakersh123/Portfolio_backend#readme",
   "dependencies": {
+    "cloudinary": "^1.27.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.13.7"
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3"
   }
 }

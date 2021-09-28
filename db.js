@@ -6,3 +6,4 @@ mongoose.connect("mongodb+srv://prakersh:prakersh2000@clusterprakersh.eyt5r.mong
 .catch((e)=>console.log(e));
 
 module.exports.Record=require("./sch")
+module.exports.Notify=require("./notify")
