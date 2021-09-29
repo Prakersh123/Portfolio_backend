@@ -68,14 +68,14 @@ app.post("/upload",upload.single('file_url'),async (req,res)=>{
                 });
 
                 // console.log(result)
-                // result.circular.push();
+                // result.circular.unshift();
                 const ress=  await resul.save();
                 console.log(ress);
                     return res.json(ress);
                 }
                     else
                     {
-                        result.circular.push({
+                        result.circular.unshift({
                             
                                 file_url:secure_url,
                                     public_id,
@@ -102,7 +102,7 @@ app.post("/upload",upload.single('file_url'),async (req,res)=>{
                             });
             
                             // console.log(result)
-                            // result.circular.push();
+                            // result.circular.unshift();
                             const ress=  await resul.save();
                             console.log(ress);
                     return res.json(ress);
@@ -110,7 +110,7 @@ app.post("/upload",upload.single('file_url'),async (req,res)=>{
                             }
                                 else
                                 {
-                                    result.news.push({
+                                    result.news.unshift({
                                         
                                             file_url:secure_url,
                                                 public_id,
